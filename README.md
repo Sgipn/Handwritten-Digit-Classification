@@ -6,3 +6,5 @@ All computations are performed on MATLAB.
 MATLAB Toolboxes: Statistics and Machine Learning Toolbox
 
 Our objective is to find the most accurate algorithm with the lowest time complexity for classifying handwritten images out of the five algorithms: simple algorithm, k means clustering, k nearest neighbors, tangent distance, and singular value decomposition.
+
+Collaborators: Kevin Xu, Darya Petrov, Katya Katsy, Jedidiah Harwood.
