@@ -1,13 +1,11 @@
 # Handwritten Digit Classification
 
-This is a term project for MAT167:Applied Linear Algebra, Fall 2021 at the University of California, Davis.  
 All computations are performed on MATLAB.
-
 MATLAB Toolboxes: Statistics and Machine Learning Toolbox
 
-Our objective is to find the most accurate algorithm with the lowest time complexity for classifying handwritten images. We evaluated the five algorithms: simple algorithm, k means clustering, k nearest neighbors, tangent distance, and singular value decomposition.
+Our objective is to find the most accurate algorithm with the lowest time complexity for classifying handwritten images. We evaluated the five algorithms: simple-centroid algorithm, k-means clustering, k-nearest-neighbors, tangent distance, and singular value decomposition.
 
-We identified the K-nearest-neighbors algorithm (k=1, inverse-weighting, and Euclidean distances) to be the highest performing algorithm at 96.6% classification accuracy and 34.6s run time. The lowest performing algorithm was Tangent distance with a 10.66% classification accuracy and 2417s run time. 
+We identified the k-nearest-neighbors algorithm (k=1, inverse-weighting, and Euclidean distances) to be the highest performing algorithm at 96.6% classification accuracy and 34.6s run time. The lowest performing algorithm was Tangent distance with a 10.66% classification accuracy and 2417s run time. 
 
 Note: 
 * If cubic distances were used for the k-nearest-neighbors-- the accuracy could be bumped up to 97.7% but this increased runtime to 1144.6s. Cosine, Euclidean and Manhattan distances had a similar prediction accuracy to run time ratio; A visualization of performance comparisons between these algorithms can be found on slide 10 of "MAT 167 Final Group Project.pptx". 
